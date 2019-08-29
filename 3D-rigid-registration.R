@@ -31,6 +31,12 @@
 #     e.g., x[1], y[1], and x[1] must be x,y,z values for the same point, same for xx[64], yy[64], zz[64], etc.
 
 
+# Function example:
+# rot.dat <- head_correction(data.raw=test.dat, ref.obs=50, 
+#    x=c('x_1','x_2','x_3'), y=c('y_1','y_2','y_3'), z=c('z_1','z_2','z_3'), 
+#    xx=c(11:20), yy=c(21:30), zz=c(31:40))
+
+
 # Main function
 head_correction <- function (data.raw=data, ref.obs=1, 
                              x=x, y=y, z=z, 
