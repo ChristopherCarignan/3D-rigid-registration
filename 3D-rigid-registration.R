@@ -39,8 +39,8 @@
 
 # Main function
 head_correction <- function (data.raw=data, ref.obs=1, 
-                             x=x, y=y, z=z, 
-                             xx=xx, yy=yy, zz=zz) {
+                             x=list, y=list, z=list, 
+                             xx=list, yy=list, zz=list) {
   
   # get the sample/observation data to be used as the reference for registration
   ref.mat <- matrix(
