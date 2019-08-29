@@ -91,12 +91,12 @@ head_correction <- function (data.raw=data, ref.obs=1,
     tr <- tcrossprod(-R,samp.cnt) + t(ref.cnt)
     
     # apply rigid tranformation to all user-specified data
-    samp.mat <- matrix(
+    rot.mat <- matrix(
       c(as.numeric(data.raw[sample, xx]), 
         as.numeric(data.raw[sample, yy]), 
         as.numeric(data.raw[sample, zz])),
       ncol=3)
-    rotated <- sweep(R %*% t(samp.mat), 1, tr, '+') # apply rotation matrix
+    rotated <- sweep(R %*% t(rot.mat), 1, tr, '+') # apply rotation and translation
     data.raw[sample, c(xx,yy,zz)] <- c(rotated[1,], rotated[2,], rotated[3,]) # replace data
   }
   return(data.raw)
