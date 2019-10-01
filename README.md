@@ -10,7 +10,7 @@ Email: c.carignan@phonetik.uni-muenchen.de
 Institution: Institute of Phonetics and Speech Processing (IPS), Ludwig-Maximilians-Universität München, Munich, Germany
 
 
-Examples are shown below for head-corrected Optotrak data of one speaker:
+Examples are shown below for head-corrected Optotrak data of one speaker (head reference sensors shown in red):
 
 ![x-y_correction](https://github.com/ChristopherCarignan/3D-rigid-registration/blob/master/x-y_correction.png)
 
