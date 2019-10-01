@@ -9,6 +9,14 @@ Email: c.carignan@phonetik.uni-muenchen.de
 
 Institution: Institute of Phonetics and Speech Processing (IPS), Ludwig-Maximilians-Universität München, Munich, Germany
 
+
+Examples are shown below for head-corrected Optotrak data of one speaker:
+
+![x-y_correction](https://github.com/ChristopherCarignan/3D-rigid-registration/blob/master/x-y_correction.png)
+
+![x-z_correction](https://github.com/ChristopherCarignan/3D-rigid-registration/blob/master/x-z_correction.png)
+
+
 Description:
 Performs rigid body registration of points in a three-dimensional Cartesian coordinate system. Useful for head-correction of data derived from electromagnetic articulometry and 3D tracking systems for speech.
 
