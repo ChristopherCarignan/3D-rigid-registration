@@ -10,17 +10,19 @@ Email: c.carignan@phonetik.uni-muenchen.de
 Institution: Institute of Phonetics and Speech Processing (IPS), Ludwig-Maximilians-Universität München, Munich, Germany
 
 
+Description:
+Performs rigid body registration of points in a three-dimensional Cartesian coordinate system. Useful for head-correction of data derived from electromagnetic articulometry and 3D tracking systems for speech.
+
+NB: currently, the function can only be used with THREE reference sensors, which produces a square matrix (3 sensors x 3 dimensions). The math is much simpler for square matrices and it hurts my tiny brain to try to figure out rectangular ones...
+
+
+
 Examples are shown below for head-corrected Optotrak data of one speaker (head reference sensors shown in red):
 
 ![x-y_correction](https://github.com/ChristopherCarignan/3D-rigid-registration/blob/master/x-y_correction.png)
 
 ![x-z_correction](https://github.com/ChristopherCarignan/3D-rigid-registration/blob/master/x-z_correction.png)
 
-
-Description:
-Performs rigid body registration of points in a three-dimensional Cartesian coordinate system. Useful for head-correction of data derived from electromagnetic articulometry and 3D tracking systems for speech.
-
-NB: currently, the function can only be used with THREE reference sensors, which produces a square matrix (3 sensors x 3 dimensions). The math is much simpler for square matrices and it hurts my tiny brain to try to figure out rectangular ones...
 
 
 Input arguments:
